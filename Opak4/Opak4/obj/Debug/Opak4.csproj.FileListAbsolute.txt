@@ -1,0 +1,10 @@
+G:\Dokumenty\Csharp\Opak4\Opak4\obj\Debug\Opak4.csprojAssemblyReference.cache
+G:\Dokumenty\Csharp\Opak4\Opak4\obj\Debug\Opak4.Form1.resources
+G:\Dokumenty\Csharp\Opak4\Opak4\obj\Debug\Opak4.Properties.Resources.resources
+G:\Dokumenty\Csharp\Opak4\Opak4\obj\Debug\Opak4.csproj.GenerateResource.cache
+G:\Dokumenty\Csharp\Opak4\Opak4\obj\Debug\Opak4.csproj.CoreCompileInputs.cache
+G:\Dokumenty\Csharp\Opak4\Opak4\bin\Debug\Opak4.exe.config
+G:\Dokumenty\Csharp\Opak4\Opak4\bin\Debug\Opak4.exe
+G:\Dokumenty\Csharp\Opak4\Opak4\bin\Debug\Opak4.pdb
+G:\Dokumenty\Csharp\Opak4\Opak4\obj\Debug\Opak4.exe
+G:\Dokumenty\Csharp\Opak4\Opak4\obj\Debug\Opak4.pdb
