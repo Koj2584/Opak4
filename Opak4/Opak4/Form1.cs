@@ -22,6 +22,7 @@ namespace Opak4
         private void button1_Click(object sender, EventArgs e)
         {
             StreamReader sr = null;
+            bool chybaSum = false;
             try
             {
                 sr = new StreamReader("cisla.txt");
@@ -43,7 +44,7 @@ namespace Opak4
                 if (n == 0) mocnina = 1;
                 for (int i = 1; i < n; i++)
                 {
-                    mocnina *= cisla[4];
+                    checked { mocnina *= cisla[4]; }
                 }
                 if (n < 0) {
                     for (int i = -1; i > n; i--)
@@ -57,6 +58,7 @@ namespace Opak4
 
                 MessageBox.Show("Realný: " + ((double)cisla[4] / n) + "\nCeločíselný: " + (int)((double)cisla[4] / n));
 
+                chybaSum = true;
                 MessageBox.Show("Součet všech čísel: " + cisla.Sum());
 
             } catch(FileNotFoundException)
@@ -73,7 +75,10 @@ namespace Opak4
             }
             catch (OverflowException)
             {
-                MessageBox.Show("Příliš velká čísla!");
+                if(!chybaSum)
+                    MessageBox.Show("Příliš velká čísla u mocnění!");
+                else
+                    MessageBox.Show("Příliš velká čísla u sčítání!");
             }
             catch (DivideByZeroException)
             {
